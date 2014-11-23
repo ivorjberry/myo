@@ -3,10 +3,17 @@ scriptId = 'com.thalmic.halocontrol'
 
 function onPoseEdge(pose, edge)
 	if pose == "fist" then
-		if edge == "on" then shoot() else endshoot() end
-	elseif	pose == "fingersSpread" then grenade()
-	elseif pose == "waveOut" then reload()
-	elseif pose == "waveIn" then switchWeapon()	
+		if edge == "on" then 
+			shoot() 
+		else 
+			endshoot() 
+		end
+	elseif	pose == "fingersSpread" then 
+		grenade()
+	elseif pose == "waveOut" then 
+		reload()
+	elseif pose == "waveIn" then 
+		switchWeapon()	
 	else
 		myo.debug("unused gesture")
 	end		
