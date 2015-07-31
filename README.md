@@ -1,4 +1,6 @@
 myo
 ===
 
-Repo for myo armband software
+Repo for myo armband software exploration.
+
+Check out
